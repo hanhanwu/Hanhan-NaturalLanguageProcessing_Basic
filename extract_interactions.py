@@ -73,7 +73,7 @@ def get_NNVBNN_interactions(txt):
     
 
 def main():
-    f_path = '/Users/hanhanwu/Documents/workspace/PythonLearning/NLP/feed.json'
+    f_path = '[change to your feed.json location]'
     blog_data = json.loads(open(f_path).read())
     
     for blog in blog_data:
