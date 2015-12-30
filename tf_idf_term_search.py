@@ -8,7 +8,7 @@ import nltk
 import json
 
 def main():
-    f_path = '/Users/hanhanwu/Documents/workspace/PythonLearning/MiningGooglePlus/107033731246200681024.json'
+    f_path = '[change to your googleplus_posts.json location]'
     data = json.loads(open(f_path).read())
     
     QUERY_TERMS = ['mobile']   # You can change the search terms here
