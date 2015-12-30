@@ -8,8 +8,6 @@ Extract interactions:
   * Run get_data.py and find the feed.json location on your machine. This file parses the blog posts from the provided URL, and generate posts into json format.
   * Update the f_path in extract_interactions.py to the feed.json location on your machine. The extract_interaction.py provides methods to extract Noun Phrases or Noun-Verb-Noun Phrases
 
-
-
 Evaluate Results using F1 score:
 * F1 = 2* (precision*recall)/(precision+recall)
 * precision = TP/(TP+FP)
