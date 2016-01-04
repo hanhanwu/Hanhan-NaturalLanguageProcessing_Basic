@@ -54,3 +54,16 @@ Text Mining mailbox and MongoDB queries
   * Convert .mbox output generated from convert_emails_to_mbox.py to JSON so that you can load the .json file to MongoDB.
   * Change the file locaions in the code (see comments).
   
+3. Load your .json file into MongoDB
+  * In MongoDB shell, type: (change [enron.mbox.json path] as the path on your machine)
+  `mongoimport --db enron --collection mbox --drop --file [enron.mbox.json path]`
+
+4. Basic_MongoDB_queries.py
+  * Done step 3 first.
+  * Make sure a MongoDB instance is running before running this code.
+  * This file include the basic queries written through Python.
+
+5. MongoDB_aggregate_queries.py
+  * Done step 3 first.
+  * Make sure a MongoDB instance is running before running this code.
+  * This file include the aggregate queries written through Python.
