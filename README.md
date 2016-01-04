@@ -39,4 +39,11 @@ Basic operations for Natural Language Processing (NLP)
  * precision = TP/(TP+FP)
  * recall = TP/(TP+FN)
 
+****************************************************************************
+Text Mining mailbox and MongoDB queries
 
+* MongoDB is a document-oriented database, by loading .json file into this database, you do text mining through its query. And the query can be written in Python by using pymongo client, or you can write queries directly through MongoDB shell.
+* The email data set is from Enron Email Dataset: http://www.cs.cmu.edu/~enron/   Download the latest version.
+
+1. convert_emails_to_mbox.py
+  * This is a way to standardize emails to .mbox format. You need to change the email folder location in the code, and the email folder is the folder of your downloaded Enron Email Dataset
