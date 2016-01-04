@@ -46,4 +46,11 @@ Text Mining mailbox and MongoDB queries
 * The email data set is from Enron Email Dataset: http://www.cs.cmu.edu/~enron/   Download the latest version.
 
 1. convert_emails_to_mbox.py
-  * This is a way to standardize emails to .mbox format. You need to change the email folder location in the code, and the email folder is the folder of your downloaded Enron Email Dataset
+  * This is a way to standardize emails to .mbox format. 
+  * You need to change the file locations in the code (see comments).
+  * The folder_path is the location of your downloaded Enron Email Dataset.
+
+2. mbox_to_JSON.py
+  * Convert .mbox output generated from convert_emails_to_mbox.py to JSON so that you can load the .json file to MongoDB.
+  * Change the file locaions in the code (see comments).
+  
