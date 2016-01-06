@@ -67,3 +67,8 @@ Text Mining mailbox and MongoDB queries
   * Done step 3 first.
   * Make sure a MongoDB instance is running before running this code.
   * This file include the aggregate queries written through Python.
+
+6. MongoDB_key_word_search.py
+  * method 1: creating a text index and search the emails contain the keyword
+  * method 2: using aggregate to do keyword search
+  * method 3: using the index with find() function to do the search
